@@ -2,9 +2,10 @@
   "name": "streaming_app",
   "version": "1.0.0",
   "description": "This is a streaming application using nodeJs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,8 @@
     "backend"
   ],
   "author": "samim aktar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
