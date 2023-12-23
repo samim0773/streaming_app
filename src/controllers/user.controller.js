@@ -16,7 +16,7 @@ const generateAccessAndRefereshTokens = async (userId) => {
 
     return { accessToken, refreshToken };
   } catch (error) {
-    throw new ApiError(
+    throw new apiError(
       500,
       "Something went wrong while generating referesh and access token"
     );
